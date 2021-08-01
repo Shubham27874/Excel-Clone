@@ -284,17 +284,17 @@ body {
     position: relative;
 }
 
-.sheet-options-modal{
+.sheet-options-modal {
     position: absolute;
-    bottom : 4vh;
+    bottom: 4vh;
     background-color: #fff;
-    height : 60px;
-    width: 60px;
+    height: 60px;
+    width: 70px;
     box-shadow: 0 0 3px 1px lightgray;
 }
 
-.sheet-rename, .sheet-delete {
-    height : 30px;
+.sheet-rename,.sheet-delete {
+    height: 30px;
     font-weight: 500;
     font-size: 16px;
     display: flex;
@@ -310,19 +310,19 @@ body {
 .sheet-rename-modal {
     position: absolute;
     height: 180px;
-    top : calc(100vh / 2 - 90px);
-    width : 300px;
+    width: 300px;
+    top: calc(100vh / 2 - 90px);
     left: calc(100vw / 2 - 150px);
-    background-color: #fff;
+    background-color: white;
     text-align: center;
     box-shadow: 0 0 3px 1px lightgray;
 }
 
-.action-buttons{
+.action-buttons {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
 }
 
 .modal-title {
@@ -330,12 +330,12 @@ body {
 }
 
 .new-sheet-name {
-    height : 26px;
+    height: 26px;
     font-size: 18px;
     outline-color: #107c41;
 }
 
-.submit-button{
+.submit-button {
     cursor: pointer;
     background-color: #107c41;
     color: white;
